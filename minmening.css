@@ -1,0 +1,118 @@
+body {
+    background-color: darkslategray;
+}
+
+li a {
+    text-align: center;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: monospace;
+
+}
+
+li {
+    float: left;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    background-image:
+
+
+}
+
+
+#mening1{
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-right: 250px;
+    margin-bottom: 400px;
+    
+}
+
+#oransje{
+    float: right;
+}
+
+#lys{
+    font-family: monospace;
+    margin-left: 50px;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    text-decoration-style: double;
+    margin-top; -200px;
+    font-size: 30px;
+
+}
+
+
+h1{
+    font-size: 60px;
+    margin-left: 100px;
+    font-family: monospace;
+}
+
+ul li {
+    float: left;
+    width: 284px;
+    height: 80px;
+    background-color:black;
+    opacity: .8;
+    line-height: 40px;
+    font-size: 20px;
+
+}
+
+li a:hover {
+    background-color: cadetblue;
+    height: 80px;
+
+
+}
+
+#top,
+#bottom,
+#left,
+#right {
+    background-color: black;
+    position: fixed;
+}
+
+#left,
+#right {
+    top: 0;
+    bottom: 0;
+    width: 15px;
+}
+
+#left {
+    left: 0;
+}
+
+#right {
+    right: 0;
+}
+
+#top,
+#bottom {
+    left: 0;
+    right: 0;
+    height: 15px;
+}
+
+#top {
+    top: 0;
+}
+
+#bottom {
+    bottom: 0;
+}

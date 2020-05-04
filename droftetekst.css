@@ -1,0 +1,194 @@
+body {
+    background-color: darkslategray;
+
+}
+
+li a {
+    text-align: center;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: monospace;
+
+
+}
+
+li {
+    float: left;
+
+}
+
+#intro {
+    margin-left: 50px;
+    font-size: 23px;
+    margin-right: 50px;
+}
+
+#virus {
+    margin-left: 50px;
+
+}
+
+#batteri{
+    margin-right: 60px;
+    height: 400px;
+    margin-bottom: 225px;
+    float: right;
+    
+}
+
+#smitte{
+    margin-left: 60px;
+}
+
+#avsnitt1 {
+    margin-left: 50px;
+    font-size: 20px;
+    margin-right: 50px;
+
+}
+
+#avsnitt2{
+    margin-left: 50px;
+    font-size: 20px;
+    margin-right: 350px;
+    
+}
+
+#avsnitt3{
+    margin-left: 50px;
+    font-size: 20px;
+    margin-right: 350px;
+    
+}
+
+
+#avsnitt4{
+    margin-left: 50px;
+    font-size: 20px;
+    margin-right: 350px;
+    
+}
+
+#avsnitt5{
+    margin-left: 50px;
+    font-size: 20px;
+    margin-right: 350px;
+    
+}
+
+#konklusjon{
+    margin-left: 50px;
+    font-size: 20px;
+    margin-right: 350px;
+    
+}
+
+#bilder{
+    margin-left: 50px;
+    font-size: 50px;
+    margin-right: 350px;
+    
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    background-image:
+
+
+}
+
+li a:hover {
+    background-color: cadetblue;
+    height: 80px;
+
+
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    text-decoration-style: double;
+
+}
+
+#kilder{
+    font-family: monospace;
+    margin-left: 50px;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    text-decoration-style: double;
+    margin-bottom: 100px;
+    font-size: 30px;
+
+}
+
+
+ul li {
+    float: left;
+    width: 284px;
+    height: 80px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    font-size: 20px;
+
+}
+
+
+h1 {
+
+    margin-left: 50px;
+    font-size: 50px;
+    font-family: sans-serif;
+
+}
+
+
+
+#top,
+#bottom,
+#left,
+#right {
+    background-color: black;
+    position: fixed;
+}
+
+#left,
+#right {
+    top: 0;
+    bottom: 0;
+    width: 15px;
+}
+
+#left {
+    left: 0;
+}
+
+#right {
+    right: 0;
+}
+
+#top,
+#bottom {
+    left: 0;
+    right: 0;
+    height: 15px;
+}
+
+#top {
+    top: 0;
+}
+
+#bottom {
+    bottom: 0;
+}

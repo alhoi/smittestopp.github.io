@@ -1,0 +1,270 @@
+body {
+    display: grid;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    margin: px;
+    background-color: darkslategray;
+    background-repeat: no-repeat;
+    grid-gap: 80px;
+    text-align: center;
+    background-size: cover;
+    font-family: monospace;
+}
+
+
+
+.for {
+
+    grid-column: 2/2;
+    grid-row: 1/1;
+    margin-top: 280px;
+    font-family: serif;
+    font-size: 20px;
+    width: 200px;
+
+}
+
+
+
+.mot {
+    grid-column: 4/4;
+    grid-row: 1/1;
+    margin-top: 280px;
+    font-family: serif;
+    font-size: 20px;
+    width: 200px;
+}
+
+li a:hover {
+    background-color: cadetblue;
+    height: 52px;
+
+
+}
+
+h1 {
+    margin-left: -20px;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+
+
+h2 {
+    margin-left: -800px;
+    margin-top: 100px;
+    font-size: 35px;
+    font-family: cursive;
+
+}
+
+
+
+
+.argfor1 {
+    grid-column: 2/2;
+    grid-row: 2/2;
+    background-color: azure;
+    width: 350px;
+    height: 150px;
+    font-family: sans-serif;
+    border: 5px solid black;
+
+}
+
+.argfor2 {
+    grid-column: 2/2;
+    grid-row: 3/3;
+    background-color: azure;
+    width: 350px;
+    height: 180px;
+    font-family: sans-serif;
+    border: 5px solid black;
+}
+
+.argfor3 {
+    grid-column: 2/2;
+    grid-row: 4/4;
+    background-color: azure;
+    width: 350px;
+    height: 125px;
+    font-family: sans-serif;
+    border: 5px solid black;
+}
+
+.argfor4 {
+    grid-column: 2/2;
+    grid-row: 5/5;
+    background-color: azure;
+    width: 350px;
+    height: 155px;
+    font-family: sans-serif;
+    border: 5px solid black;
+}
+
+
+.argmot1 {
+    grid-column: 4/4;
+    grid-row: 2/2;
+    background-color: azure;
+    width: 350px;
+    height: 165px;
+    font-family: sans-serif;
+    border: 5px solid black;
+}
+
+.argmot2 {
+    grid-column: 4/4;
+    grid-row: 3/3;
+    background-color: azure;
+    width: 350px;
+    height: 165px;
+    font-family: sans-serif;
+    border: 5px solid black;
+
+}
+
+.argmot3 {
+    grid-column: 4/4;
+    grid-row: 4/4;
+    background-color: azure;
+    width: 350px;
+    height: 125px;
+    font-family: sans-serif;
+    border: 5px solid black;
+
+}
+
+.argmot4 {
+    grid-column: 4/4;
+    grid-row: 5/5;
+    background-color: azure;
+    width: 350px;
+    height: 125px;
+    font-family: sans-serif;
+    border: 5px solid black;
+}
+.argmot5{
+    grid-column: 4/4;
+    grid-row: 6/6;
+    background-color: azure;
+    width: 350px;
+    height: 190px;
+    font-family: sans-serif;
+    border: 5px solid black;
+}
+
+.argmot6{
+    grid-column: 4/4;
+    grid-row: 7/7;
+    background-color: azure;
+    width: 350px;
+    height: 120px;
+    font-family: sans-serif;
+    border: 5px solid black;
+}
+
+.viktigmot {
+    width: 320px;
+    padding: 10px;
+    border: 7px solid darkblue;
+    margin: 0;
+    grid-column: 4/4;
+    grid-row: 8/8;
+    font-size: 17px;
+    height: 275px;
+    background-color: lightskyblue;
+    margin-bottom: 50px;
+
+
+}
+
+.viktigfor {
+    width: 320px;
+    padding: 10px;
+    border: 7px solid darkblue;
+    margin: 0;
+    grid-column: 2/2;
+    grid-row: 6/6;
+    font-size: 17px;
+    height: 240px;
+    background-color: lightskyblue;
+}
+
+#top,
+#bottom,
+#left,
+#right {
+    background-color: black;
+    position: fixed;
+}
+
+#left,
+#right {
+    top: 0;
+    bottom: 0;
+    width: 15px;
+}
+
+#left {
+    left: 0;
+}
+
+#right {
+    right: 0;
+}
+
+#top,
+#bottom {
+    left: 0;
+    right: 0;
+    height: 15px;
+}
+
+#top {
+    top: 0;
+}
+
+#bottom {
+    bottom: 0;
+}
+
+
+li a {
+    text-align: center;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: monospace;
+    margin-right: 150px;
+
+
+}
+
+li {
+    float: left;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    background-image:
+
+
+}
+
+ul li {
+    float: left;
+    width: 300px;
+    height: 80px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    font-size: 20px;
+
+}
