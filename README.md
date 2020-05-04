@@ -1,1 +1,0 @@
-# smittestopp.github.io
